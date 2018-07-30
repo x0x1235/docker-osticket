@@ -61,8 +61,8 @@ function convertStrToBool($varName, $default) {
 define("URL",$vars['url']);
 
 //Require files (must be done before any output to avoid session start warnings)
-chdir("/data/upload/setup_old");
-require "/data/upload/setup_old/setup.inc.php";
+chdir("/data/upload/setup_hidden");
+require "/data/upload/setup_hidden/setup.inc.php";
 require_once INC_DIR.'class.installer.php';
 
 
